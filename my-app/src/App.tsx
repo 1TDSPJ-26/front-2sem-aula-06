@@ -1,4 +1,5 @@
-import Leleo from "./components/Nome/Leleo"
+import Leleo from "./components/Nome/Leleo";
+
 
 export default function App(){
 
