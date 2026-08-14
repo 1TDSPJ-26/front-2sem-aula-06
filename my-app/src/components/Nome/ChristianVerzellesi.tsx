@@ -1,6 +1,6 @@
 export default function ChristianVerzellesi(){
-    return
+    return(
     <div>
         <h2>Christian Verzellesi Barbuto</h2>
-    </div>
+    </div>);
 }
