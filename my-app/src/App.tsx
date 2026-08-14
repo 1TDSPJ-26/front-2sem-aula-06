@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+ 
+
 import SophiaSil from "./components/nome/SophiaSil"
 
 export default function App() {
@@ -27,4 +27,3 @@ export default function App() {
     </div>
   );
 }
->>>>>>> feature/my-componet-are-rm571932
