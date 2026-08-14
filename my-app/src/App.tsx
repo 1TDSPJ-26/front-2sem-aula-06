@@ -1,6 +1,5 @@
-import Breno from "./components/Nome/Breno"
+export default function App() {
 
- export default function App() {
   return (
     <div>
       <header>
@@ -14,20 +13,13 @@ import Breno from "./components/Nome/Breno"
         </nav>
       </header>
       <main>
-        <Breno/>
-        <h2>Conteudo</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi nulla,
-          assumenda optio provident sint, nesciunt deleniti alias animi saepe
-          voluptatibus quia ipsam accusantium quos, tempore delectus fuga in?
-          Adipisci expedita aperiam laborum ducimus aliquid saepe quam ullam
-          repellat, voluptas reprehenderit quo reiciendis voluptatem voluptate
-          totam, quos quibusdam. Consectetur, nihil laboriosam.
-        </p>
-        <footer>
-          <p>Todos os direitos reservados. &copy;</p>
-        </footer>
+        <h2>Conteúdo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia aliquid porro cum illo eveniet, quod cumque nesciunt ipsa, reprehenderit hic fugiat. Facere aliquid veritatis modi doloremque labore possimus eveniet recusandae, tempora eos at incidunt, rerum nulla totam asperiores explicabo magni quam adipisci esse earum, quisquam mollitia! Omnis libero repellat consequatur.</p>
       </main>
+      <footer>
+        <p>Todos os direitos reservados. &copy;</p>
+      </footer>
     </div>
-  );
+  )
 }
+
