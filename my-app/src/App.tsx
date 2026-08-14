@@ -18,7 +18,7 @@ export default function App(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloremque atque numquam, delectus illo necessitatibus earum aliquam, voluptatum natus placeat ipsam eum impedit ipsum. Dolores animi enim quas vitae aut!</p>
             </main>
            <Alex/>
-                       <footer>
+              <footer>
                 <p>Todos os direitos reservados. &copy;</p>
             </footer>
         </div>
