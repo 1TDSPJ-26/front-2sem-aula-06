@@ -5,3 +5,4 @@
 - Cadastrar produtos
 - Editar produtos
 - Excluir produtos
+- Compar produto
