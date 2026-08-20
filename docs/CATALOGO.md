@@ -1,5 +1,0 @@
-## Produto
-
-## Categoria
-
-## Preço
