@@ -1,4 +1,6 @@
+import Conteudo from "./components/Conteudo/Conteudo";
 import Cabecalho from "./components/Cabecalho/Cabecalho"
+import Rodape from "./components/Rodape/Rodape";
 
 export default function App() {
   return(
@@ -8,14 +10,10 @@ export default function App() {
 
       cria os componentes conteudo e rodape e importa eles automatricamente
 
+      <Conteudo/>
 
-        <main>
-          <h2>conteudo</h2>
-        </main>
+      <Rodape/>
 
-        <footer>
-          <p>p&copy;todos os direito reservados</p>
-        </footer>
     </div>
   );
 }
