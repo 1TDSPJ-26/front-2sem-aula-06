@@ -1,23 +1,17 @@
-import Cabecalho from "./components/Cabecalho/Cabecalho";
+import Cabecalho from "./components/Cabecalho/Cabecalho"
+import Conteudo from "./components/Conteudo/Conteudo"
+import Rodape from "./components/Rodape/Rodape"
 
 export default function App(){
+    return(
 
-  return(
-    <div>
-      
-      <Cabecalho/>
+        <div>
 
-    {/* Para a próxima aula crie os componentes Conteudo e Rodape e importem 
-      automáticamente nos lugares dos JSX aqui em App. */}
+            <Cabecalho></Cabecalho>
+            <Conteudo></Conteudo>
+            <Rodape></Rodape>
 
-      <main>
-          <h2>Conteúdo</h2>
-      </main>
+        </div>
 
-      <footer>
-          <p>&copy;2026 - Todos os direitos reservados</p>
-      </footer>
-      
-    </div>
-  );
+    )
 }
