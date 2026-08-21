@@ -1,5 +1,6 @@
 import Cabecalho from "./components/cabecalho/Cabecalho";
 import Conteudo from "./components/conteudo/conteudo";
+import Rodape from "./components/rodape/rodape";
 
 export default function App(){
 
@@ -13,9 +14,7 @@ export default function App(){
 
       <Conteudo/>
 
-      <footer>
-          <p>&copy;2026 - Todos os direitos reservados</p>
-      </footer>
+      <Rodape/>
       
     </div>
   );
