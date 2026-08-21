@@ -9,9 +9,6 @@ export default function App(){
       
       <Cabecalho/>
 
-    {/* Para a próxima aula crie os componentes Conteudo e Rodape e importem 
-      automáticamente nos lugares dos JSX aqui em App. */}
-
       <Conteudo/>
 
       <Rodape/>
