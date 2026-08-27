@@ -5,6 +5,24 @@ import "./globals.css";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
+//importando objetos de rotas
+import {createBrowserRouter, RouterProvider} from 'react-router';
+
+//importar componentes de rotas
+import Home from './routes/Home/index.tsx';
+import Produtos from './routes/Produtos/index.tsx';
+import EditarProdutos from './routes/EditarProdutos/index.tsx';
+import Error from './routes/Error/index.tsx';
+
+//criando a objeto de rotas
+const router = createBrowserRouter([
+  {path: '/', element: <App />, errorElement: <Error />, children: [
+    {path: '/', element: <Home />},
+    {path: '/produtos', element: <Produtos />},
+    {path: '/editar-produtos', element: <EditarProdutos />}
+  ]},
+]);
+

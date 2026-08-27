@@ -1,17 +1,16 @@
+import Cabecalho from "./components/cabecalho/cabecalho";
 
 export default function App() {
 
   return (
     <div>
       
-      <header>  
-        <h1>Meu boiler-plate</h1>
-      </header>
-      <main>
-        <h2>Conteúdo</h2>
-      </main>
+      <Cabecalho/>
+
+      <Outlet/>
+
       <footer>
-        <p></p>
+        <p>Todos os direitos reservados</p>
       </footer>
 
     </div>
