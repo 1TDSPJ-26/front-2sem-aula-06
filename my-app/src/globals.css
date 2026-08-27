@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+body {
+    @apply bg-indigo-500 max-w-max m-auto text-green-500 font-bold text-2xl;
+}
+
+.minhaClasse {
+    @apply text-red-500 font-bold text-2xl;
+}
