@@ -1,3 +1,4 @@
+import { Outlet } from "react-router";
 import Cabecalho from "./components/Cabecalho/Cabecalho";
 
 export default function App(){
@@ -7,12 +8,7 @@ export default function App(){
       
       <Cabecalho/>
 
-    {/* Para a próxima aula crie os componentes Conteudo e Rodape e importem 
-      automáticamente nos lugares dos JSX aqui em App. */}
-
-      <main>
-          <h2>Conteúdo</h2>
-      </main>
+      <Outlet/>
 
       <footer>
           <p>&copy;2026 - Todos os direitos reservados</p>
