@@ -1,3 +1,4 @@
+import { Outlet } from "react-router";
 import Cabecalho from "./components/cabecalho/cabecalho"
 
 export default function App(){
@@ -6,10 +7,9 @@ export default function App(){
     <div>
       
       <Cabecalho/>
-      
-      <main>
-          <h2>Conteúdo</h2>
-      </main>
+        
+      <Outlet />
+
       <footer>
           <p>&copy;2026 - Todos os direitos reservados</p>
       </footer>
