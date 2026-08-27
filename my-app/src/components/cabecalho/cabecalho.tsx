@@ -1,15 +1,7 @@
-export default function Cabecalho(){
-  return (
-    <div>
-
-        <Cabecalho/>
-
-        <main>
-            <h2>Conteúdo</h2>
-        </main>
-
-        <footer>
-            <p>Direitos autorais Gustavo Pontes</p>
-        </footer>
-);
+export default function Cabecalho() {
+  return(
+    <header className="bg-blue-500 max-w-max m-auto text-white-500 font-bold text-2xl">
+      <h1>Meu cabeçalho</h1>
+    </header>
+  );
 }
