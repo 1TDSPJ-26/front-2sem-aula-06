@@ -3,10 +3,10 @@
 @layer base {
 
     body {
-        @apply bg-indigo-600 m-auto text-white
+        @apply bg-indigo-600 mx-auto text-white
     }
 
     .minhaClasse{
-        @apply text-red-400;
+        @apply text-red-400 text-4xl;
     }
 }
