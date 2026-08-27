@@ -1,10 +1,9 @@
 export default function Cabecalho() {
     return (
         <div>
-            <header>
-                <h1>Meu boiler-plate</h1>
+            <header className="bg-indigo-600 text-white text-center">
+                <h1 className="minhaClasse">Meu boiler plate</h1>
             </header>
-
         </div>
             );
 }
