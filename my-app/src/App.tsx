@@ -1,20 +1,17 @@
-import Cabecalho from "./components/Cabecalho/Cabecalho";
+import Conteudo from "./components/Conteudo/Conteudo";
+import Cabecalho from "./components/Cabecalho/Cabecalho"
+import Rodape from "./components/Rodape/Rodape";
 
-export default function App(){
-
+export default function App() {
   return(
     <div>
-      
+
       <Cabecalho/>
 
-      <main>
-          <h2>Conteúdo</h2>
-      </main>
-      <footer>
-          <p>&copy;2026 - Todos os direitos reservados</p>
-      </footer>
-      
+      <Conteudo/>
+
+      <Rodape/>
+
     </div>
   );
 }
-

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+
+    body {
+        @apply bg-indigo-500 mx-auto text-white;
+    }
+
+    .minhaClasse {
+        @apply 
+    }
+
+
+
+
+}
