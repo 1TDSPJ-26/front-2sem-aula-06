@@ -5,9 +5,7 @@ export default function App(){
     <div>
       
       <Cabecalho/>
-      
-      {/*Para a próxima aula crie os componentes Conteudo e Rodape e importem automaticamente nos lugares dos JSX aq em app*\}
-      <main>
+            <main>
           <h2>Conteúdo</h2>
       </main>
       <footer>
