@@ -12,6 +12,6 @@
     }
 
     .minhaClasse{
-        @apply text-red-400 text-4x1;
+        @apply text-red-400;
     }
 }
