@@ -8,8 +8,6 @@ export default function App() {
 
       <Cabecalho/>
 
-      cria os componentes conteudo e rodape e importa eles automatricamente
-
       <Conteudo/>
 
       <Rodape/>
