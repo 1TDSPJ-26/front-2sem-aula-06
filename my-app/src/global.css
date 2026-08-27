@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base{
+    body{
+        @apply bg-amber-500 max-w-1200px m-auto;
+    }
+}
