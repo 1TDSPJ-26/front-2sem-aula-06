@@ -1,17 +1,16 @@
-import Cabecalho from "./components/Cabecalho/cabecalho"
+import { Outlet } from 'react-router'
+import Cabecalho from './components/Cabecalho/cabecalho' // (ou o caminho que ele usou)
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <div>
-      
-      <Cabecalho/>
-            <main>
-          <h2>Conteúdo</h2>
-      </main>
-      <footer>
-          <p>&copy;2026 - Todos os direitos reservados</p>
-      </footer>
+      <Cabecalho />
 
+      <Outlet />
+
+      <footer>
+        <p>&copy; 2026 Todos os direitos reservados</p>
+      </footer>
     </div>
-  );
+  )
 }
